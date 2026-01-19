@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Results/outputs (large files)
+results/
+output/
+__pycache__/
+*.log
+*.jsonl
+*.pkl
+*.csv  # except example/sample data
+# Large model caches (HuggingFace)
+.cache/
+**/models/
+**/*.bin
+**/*.safetensors
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large data files
+*.pdf  # 除非示例
+*.zip
+*.tar.gz
+
+# Docker
+.dockerignore
+
+# Testing
+.pytest_cache/
+
+# FinBERT specific
+transformers_cache/
+huggingface_hub_cache/
